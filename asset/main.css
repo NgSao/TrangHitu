@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.div{
+    border: 2px solid red;
+}
+/*topbar*/
+.topbar{
+    background-color: #183883;
+    color: #fff;
+    height: 30px;
+}
+/*header*/
+
+.search > input{
+    width: 300px;
+}
+
+.search{
+    text-align: center;
+    padding:35px;
+}
+/*main-menu*/
+.main-container{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+.main-container li a{
+    color: black;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    width: 280px;
+    padding: 0 0px;
+    display: none;
+    
+}
+.main-menu ul.sub-menu a{
+    padding: 10px 15px;
+    text-transform: initial;
+    color: #000;
+    border-bottom: 1px solid rgb(239, 234, 234);
+}
+.main-menu li:hover ul.sub-menu{
+    display: block;
+    
+}
+.main-menu ul.sub-menu li:hover a{
+    border-bottom:1px solid white;
+    background-color: #0578D4;
+    color: #fff;
+    font-size: 13px;
+}
+.main-menu{
+    background-color: #0578D4;
+    height: 55px;
+    padding: 0 90px;
+    
+}
+.main-menu ul>li{
+    border-right: 1px solid #fff;
+}
+.main-menu ul>li:last-child{
+    border: none;
+} 
+/*headline*/
+.headline{
+    font-family: 'Saira', sans-serif;
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+}
+.headline{
+    font-size: 14px;
+}
+.luffy{
+    border-bottom: 1px dotted #ccc ;
+    margin: 5px;
+}
+.luffy a{
+    text-decoration: none;
+    color: black;
+}
+.jinbe{
+    margin: 5px;
+}
+.jinbe a{
+    text-decoration: none;
+    color: black;
+}
+.zoro{
+    text-align-last: right;
+}
+/*onepiece*/
+h4{
+    color: blue;
+}
+.onepiece{
+    font-family: 'Montserrat', sans-serif;
+}
+.onepiece a{
+    text-decoration: none;
+    color: black;
+}
+/*sunny*/
+.sunny{
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    min-width: 100%;
+    padding-bottom: 15px;
+    background-size: 50%;
+}
+/*footer*/
+.footer{
+    border-top: 2px solid blue;
+}
+.chopper {
+    text-decoration: none;
+    color: black;
+}
+.sanji
+{
+    margin-top: 18px;
+}
+.franky{
+   padding: 5px;
+}
+.usopp{
+    margin-top: 8px;
+}
+.brook{
+    text-align-last: right;
+}
+.footer li {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    font-size: small;
+}
+.footer li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 11px;
+    line-height: 25px;
+    
+}
+/*nami*/
+.nami{
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+}
+.robin{
+    width: 30px;
+    margin: 5px;
+}
+
+@media screen and (max-width:240px) {
+    .topbar{
+        width: 340%;
+        height: 50px;
+        font-size: 29px;
+    }
+    .header{
+        width: 340%;
+        padding: 0px 8px;
+    }
+    .main-menu{
+        
+      width: 340%;
+      padding: 0pt;
+      font-size: 30px;
+    }
+    .slide{
+        width: 336%;
+    }
+    .slide-sub{
+        width: 330%;
+        margin: 8px;
+    }
+    h3{
+        width: 300%;
+        font-size: 30px;
+    }
+    .headline{
+        width: 340%;
+        height: 250px;
+        font-size: 8px;
+    }
+    .onepiece{
+        width: 340%;
+        font-size: 10px;
+    }
+    .footer{
+        width: 340%;
+        
+    }
+    .nami{
+        width: 340%;
+    }
+  
+   
+}
